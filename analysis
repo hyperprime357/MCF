@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Job Market Analysis - Singapore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold mb-4">IT Job Market Analysis - Singapore</h1>
+        <p class="text-lg mb-8">This report presents an analysis of the IT job market in Singapore based on a dataset of 1,017 job listings.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">Key Findings</h2>
+                <ul class="list-disc pl-6 mb-8">
+                    <li>1,017 job listings across various IT roles</li>
+                    <li>Salaries range from $1 to $50,000 per month</li>
+                    <li>Top job titles: Software Engineer, IT Programmers, DevOps Engineer</li>
+                    <li>Major hiring companies: ByteDance (TikTok), Facebook, Google, Amazon, Singapore Airlines</li>
+                    <li>Contract positions (52.5%) are more common than permanent roles (44.2%)</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold mb-4">Salary Analysis</h2>
+                <img src="salary_histogram.png" alt="Salary Distribution Histogram" class="mb-4">
+                <ul class="list-disc pl-6">
+                    <li>Median salary range: $6,000 - $9,500 per month</li>
+                    <li>25th percentile range: $4,000 - $6,000</li>
+                    <li>75th percentile range: $8,000 - $13,000</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Top Companies by Number of Job Listings</h2>
+            <img src="top_companies.png" alt="Top Companies Bar Chart" class="mb-4">
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Job Types Breakdown</h2>
+            <img src="job_types.png" alt="Job Types Pie Chart" class="mb-4">
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Most Common Job Titles</h2>
+            <img src="job_titles_wordcloud.png" alt="Job Titles Word Cloud" class="mb-4">
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Conclusion</h2>
+            <p class="text-lg">The IT job market in Singapore appears robust, with diverse roles and competitive salaries offered by major tech companies. Software engineering and development are in high demand. Specializing in high-value skills like enterprise sales, machine learning, and cloud architecture can increase earning potential.</p>
+        </div>
+    </div>
+</body>
+</html>
